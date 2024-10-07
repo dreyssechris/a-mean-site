@@ -1,0 +1,12 @@
+{
+    "include": ["src/**/*"], // Include all files in the src directory and subdirectories
+    "compilerOptions": {
+      "target": "es2016", // Set the target ECMAScript version to ES2016
+      "module": "commonjs", // Allows import and export modules in a way that is compatible with Node.js
+      "esModuleInterop": true, // Interoperability between CommonJS and ES Modules
+      "forceConsistentCasingInFileNames": true, // Ensures consistent casing in file names
+      "strict": true, // Enables all strict type-checking options
+      "skipLibCheck": true, // Skips type checking of declaration files
+      "outDir": "./dist" // Output directory for the compiled JavaScript files
+    }
+}
