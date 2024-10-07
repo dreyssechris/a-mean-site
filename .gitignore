@@ -6,8 +6,15 @@
 /out-tsc
 /bazel-out
 
-# Node
-/node_modules
+# Node.js dependencies (server)
+server/node_modules/
+server/dist/
+
+# Angular dependencies (client)
+client/node_modules/
+client/dist/
+
+# Node logs
 npm-debug.log
 yarn-error.log
 *.env
@@ -38,6 +45,27 @@ yarn-error.log
 testem.log
 /typings
 
+# Logs in both client and server
+**/logs/
+*.log
+
 # System files
 .DS_Store
 Thumbs.db
+
+# Optional npm cache directory
+.npm/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Environment variables
+*.env
+
+# Git local repo settings
+.git/
