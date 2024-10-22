@@ -6,6 +6,8 @@
 /out-tsc
 /bazel-out
 
+.DS_Store
+
 # Node.js dependencies (server)
 server/node_modules/
 server/dist/

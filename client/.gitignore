@@ -10,6 +10,8 @@
 server/node_modules/
 server/dist/
 
+.DS_Store
+
 # Angular dependencies (client)
 client/node_modules/
 client/dist/
